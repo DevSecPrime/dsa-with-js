@@ -1,5 +1,5 @@
-// Move one element by one
-console.log("Move one element by one");
+// Move one element left by one
+console.log("Move one element left by one");
 const arr = [1, 2, 3, 4, 5];
 
 console.log("here is the original array: ", arr);
@@ -11,5 +11,9 @@ for (let i = 0; i < arr.length - 1; i++) {
 }
 
 arr[arr.length - 1] = copy;
+
+//By using array
+// arr.shift();
+// arr.push(copy);
 
 console.log("Output: ", arr);
